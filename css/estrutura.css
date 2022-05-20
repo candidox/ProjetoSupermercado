@@ -21,9 +21,15 @@ html, body{
     margin-left: 50px;
 }
 
+#imgLogo:hover{
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    transform: rotateY(25deg);
+}
+
 #Logo{
     width: 75px;
-    margin-left: 680px;
+    margin-left: 635px;
     margin-bottom: 25px;
 }
 
@@ -52,7 +58,7 @@ nav{
     float: left;
     margin:2px;
     padding: 2px;
-    line-height: 40px;
+    line-height: 35px;
     color: white;
 }
 
@@ -102,15 +108,31 @@ nav{
 }
 
 #principal{
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(rgba(251, 254, 255, 0.66), rgba(114, 220, 255, 0.644));
     width: 920px;
     margin: 135px auto;
     padding-bottom: 35px;
+    border: 1px solid black;
+}
+
+#principal:hover{
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.596);
+    transition: 0.4s;
 }
 
 footer{
-    background: linear-gradient(rgba(255, 255, 255, 0), rgb(200, 247, 255),rgb(128, 213, 255));
+    color: white;
+    text-shadow: 1px 1px 2px rgb(128, 206, 255);
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(188, 188, 188),rgb(25, 25, 25));
     padding: 15px;
+}
+
+footer a{
+    color: rgb(9, 1, 59);
+}
+
+footer a:visited{
+    color: rgb(9, 1, 59);
 }
 
 footer ol{
@@ -123,19 +145,31 @@ footer ol{
     text-align: center;
     padding: 10px;
     color: rgb(0, 0, 0);
-    text-shadow: rgb(0, 255, 217) 1px 1px 2px;
 }
 
 #Contato fieldset{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     margin: 0 auto; 
     width: 500px;
     padding: 15px;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.45);
 }
 
 #Contato textarea{
     width: 100%;
     text-align: center;
+}
+
+#Contato input, #Contato textarea{
+    background-color: rgb(194, 245, 251);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.323);
+}
+
+#btnEnviar{
+    float: right;
+    width: 70px;
+    padding: 5px;
+    cursor: pointer;
 }
 
 *{
@@ -146,6 +180,7 @@ footer ol{
 
 .accordion{
     max-width: 800px;  
+    height: 0px;
 }
 
 .accordion .contentBx{
@@ -154,12 +189,20 @@ footer ol{
 
 .accordion .contentBx .label{
     text-align: center;
-    width: 100%;
+    width: 875px;
     padding: 10px;
-    background: rgb(0, 10, 95);
+    background: rgb(0, 110, 199);
     color: white;
     cursor: pointer;
 }
+.accordion .contentBx .label:hover{
+    background: rgb(0, 54, 98);
+    box-shadow: 3px 3px 2px #00091066;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: 0.15s;
+}
+
 
 .accordion .contentBx .label::before{
     top: 50%;
@@ -168,8 +211,9 @@ footer ol{
 }
 
 .accordion .contentBx .content{
-    background: white;
-    height: 0;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 0px;
     overflow: hidden;
     transition: 0.5s;
     overflow-y: auto;
@@ -178,6 +222,11 @@ footer ol{
 .accordion .contentBx.active .content{
     height: 100%;
     padding-top: 20px;
-    transition: 0.5s;
+    transition: 0.2s;
+    border: 1px solid black;
 }
 
+.accordion .contentBx.active .label{
+    transition: 1s;
+    background: rgb(3, 0, 67);
+}

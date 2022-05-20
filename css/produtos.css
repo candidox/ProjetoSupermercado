@@ -15,71 +15,146 @@
     text-align: center;
 }
 
+#categorias{
+    width: 100%;
+    font-size: 28pt;
+    margin-top: 8px;
+    
+}
+
+#headerCategorias{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 3px rgb(0, 132, 255);
+    background-color: rgb(237, 247, 255);
+    height: 80px;
+    border-bottom: 1px solid black;
+}
+
+#headerCategorias:hover{
+    transition: 0.2s;
+    background: linear-gradient(rgb(109, 189, 255),rgb(237, 247, 255));
+    color: white;
+    text-shadow: 1px 1px 3px rgb(53, 53, 53);
+}
+
 #produtos figure img{
-    width: 80px;
+    width: 50px;
     margin: 10px auto;
     display: block;
     
 }
 
 #produtos figure{
-    background-color: rgba(0, 0, 255, 0.046);
-    width: 159px;
-    height: 180px;
+    background: linear-gradient(rgb(205, 245, 255), rgb(255, 255, 255));
+    width: 175px;
+    height: 220px;
     margin: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(57, 57, 57, 0.433);
+    border-radius: 15px;
 }
+
+#produtos figcaption{
+    width: 100%;
+}
+
+#produtos legend{
+    width: 100%;
+    display: block;
+    font-size: 8pt;
+    text-align: center;
+}
+
+#produtos h5{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-size: 10pt;
+    padding: 5px;
+}
+
+.produtoCarrinho{
+
+    height: 25px;
+    width: 100%;
+}
+
+#cart{
+    float: right;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+#up{
+    margin-left: 5px;
+}
+
+/* CONTADOR */
+
+.start-counter{
+    counter-reset: meucontador;
+}
+
+.print-counter{
+    margin-left: 5px;
+}
+
+.print-counter::after{
+    content: counter(meucontador);
+}
+
+.counter-increment{
+    cursor: pointer;
+}
+
+.counter-increment:active{
+    counter-increment: meucontador;
+}
+
+
 
 /* ITEM A ITEM ABAIXO */
 
 #produtos #carnes{
-    background-color: rgb(218, 218, 218);
-    margin: 55px;
+    margin-top: 10px;
     display: block;
 }
 
 #produtos #margarina{
-    background-color: rgb(218, 218, 218);
-    margin: 55px;
+    margin-top: 10px;
     display: block;
 }
 #produtos #graos{
-    background-color: rgb(218, 218, 218);
-    margin: 55px;
+    margin-top: 10px;
     display: block;
 }
 #produtos #temperos{
-    background-color: rgb(218, 218, 218);
-    margin: 55px;
+    margin-top: 10px;
     display: block;
 }
 #produtos #doces{
-    background-color: rgb(218, 218, 218);
-    margin: 55px;
+    margin-top: 10px;
     display: block;
 }
 #produtos #bebidas{
-    background-color: rgb(218, 218, 218);
-    margin: 55px;
+    margin-top: 10px;
     display: block;
 }
 #produtos #higiene{
-    background-color: rgb(218, 218, 218);
-    margin: 55px;
+    margin-top: 10px;
     display: block;
 }
 #produtos #verduras{
-    background-color: rgb(218, 218, 218);
-    margin: 55px;
+    margin-top: 10px;
     display: block;
 }
 #produtos #frutas{
-    background-color: rgb(218, 218, 218);
-    margin: 55px;
+    margin-top: 10px;
     display: block;
 }
 #produtos #peixes{
-    background-color: rgb(218, 218, 218);
-    margin: 55px;
+    margin-top: 10px;
     display: block;
 }
 
