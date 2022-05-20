@@ -13,12 +13,12 @@ X - NÃO FEITO
 • No rodapé, insira pelo menos 3 ícones de redes sociais usando o font-awesome, também insira o nome e rgm de todos os integrantes do grupo. 
 • bolinha fixed para ir ao topo da pagina usando position: fixed.
 • quando scrolla a tela travar o menu
+• Responsivo com outras Resoluções (Dispositivos móveis e desktops(768,1024,1360,1080...))
 
 ~ botão para aumentar a quantidade com contador
 ~ https://getbootstrap.com/docs/5.2/components/accordion/(ideia).
 ~ Região de menu com todas as categorias, ao clicar em cada categoria, apresente os produtos existentes, use o efeito de scroll praticado em aula.
 
-X Responsivo com outras Resoluções
 X menu sanduiche/hamburguer/dropdown - bootstrap
 X efeito parallax com a imagem html (w3schools)
 
