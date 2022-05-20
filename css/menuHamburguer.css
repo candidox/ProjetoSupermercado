@@ -118,7 +118,7 @@
   padding-top: 115px;
   height: 120vh;
   
-  background: linear-gradient(rgb(85, 196, 255),white);
+  background: linear-gradient(rgb(255, 255, 255), rgb(0, 153, 255), rgb(0, 132, 189),  rgb(0, 0, 0));
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
