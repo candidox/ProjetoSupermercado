@@ -1,0 +1,85 @@
+#produtos img{
+    height: 100px;
+}
+
+#produtos *{
+    display: inline-block;
+}
+
+#produtos{
+    margin-left: auto;
+}
+
+#produtos h1{
+    display: block;
+    text-align: center;
+}
+
+#produtos figure img{
+    width: 80px;
+    margin: 10px auto;
+    display: block;
+    
+}
+
+#produtos figure{
+    background-color: rgba(0, 0, 255, 0.046);
+    width: 159px;
+    height: 180px;
+    margin: 20px;
+}
+
+/* ITEM A ITEM ABAIXO */
+
+#produtos #carnes{
+    background-color: rgb(218, 218, 218);
+    margin: 55px;
+    display: block;
+}
+
+#produtos #margarina{
+    background-color: rgb(218, 218, 218);
+    margin: 55px;
+    display: block;
+}
+#produtos #graos{
+    background-color: rgb(218, 218, 218);
+    margin: 55px;
+    display: block;
+}
+#produtos #temperos{
+    background-color: rgb(218, 218, 218);
+    margin: 55px;
+    display: block;
+}
+#produtos #doces{
+    background-color: rgb(218, 218, 218);
+    margin: 55px;
+    display: block;
+}
+#produtos #bebidas{
+    background-color: rgb(218, 218, 218);
+    margin: 55px;
+    display: block;
+}
+#produtos #higiene{
+    background-color: rgb(218, 218, 218);
+    margin: 55px;
+    display: block;
+}
+#produtos #verduras{
+    background-color: rgb(218, 218, 218);
+    margin: 55px;
+    display: block;
+}
+#produtos #frutas{
+    background-color: rgb(218, 218, 218);
+    margin: 55px;
+    display: block;
+}
+#produtos #peixes{
+    background-color: rgb(218, 218, 218);
+    margin: 55px;
+    display: block;
+}
+
