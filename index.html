@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/estrutura.css">
     <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/menuHamburguer.css">
     <script src="https://kit.fontawesome.com/bed601a4e2.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM  +OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Mercado X</title>
@@ -17,24 +18,58 @@
 
         <nav>
             <div id="superior">
-                <img src="imagens/logoMercado.png" id="imgLogo">
-                <img src="imagens/logoA.png" id="Logo">
+                <div id="logoPrincipalCss">
+                    <img src="imagens/logoMercado.png" id="imgLogo">
+                    <img src="imagens/logoA.png" id="Logo">
+                </div>
+                
             </div>
 
+            
+
             <div id="menu"> 
-                <ul>
-                    <a href="#"><div class="navegacao" id="home"><li>HOME</li></div></a>
-                    <a href="#carnes"><div class="navegacao"><li>CARNES / FRANGO</li></div></a>
-                    <a href="#margarinas"><div class="navegacao"><li>MARGARINAS</li></div></a>
-                    <a href="#graos"><div class="navegacao"><li>GRÃOS</li></div></a>
-                    <a href="#temperos"><div class="navegacao"><li>TEMPEROS</li></div></a>
-                    <a href="#doces"><div class="navegacao"><li>DOCES</li></div></a>
-                    <a href="#bebidas"><div class="navegacao"><li>BEBIDAS</li></div></a>
-                    <a href="#higiene"><div class="navegacao"><li>HIGIENE E LIMPEZA</li></div></a>
-                    <a href="#verduras"><div class="navegacao"><li>VERDURAS E LEGUMES</li></div></a>
-                    <a href="#frutas"><div class="navegacao"><li>FRUTAS</li></div></a>
-                    <a href="#peixes"><div class="navegacao"><li>PEIXES E DERIVADOS</li></div></a>
-                </ul>
+                
+                <div id="HamburgPrincipal">
+                    <div role="navigation">
+                        <div id="hamburguerToggle">
+                          <input type="checkbox" />
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <ul id="hamburguer">
+                            <a href="#"><div class="navegacao2" id="home2"><li>HOME</li></div></a>
+                            <a href="#carnes"><div class="navegacao2"><li>CARNES / FRANGO</li></div></a>
+                            <a href="#margarinas"><div class="navegacao2"><li>MARGARINAS</li></div></a>
+                            <a href="#graos"><div class="navegacao2"><li>GRÃOS</li></div></a>
+                            <a href="#temperos"><div class="navegacao2"><li>TEMPEROS</li></div></a>
+                            <a href="#doces"><div class="navegacao2"><li>DOCES</li></div></a>
+                            <a href="#bebidas"><div class="navegacao2"><li>BEBIDAS</li></div></a>
+                            <a href="#higiene"><div class="navegacao2"><li>HIGIENE E LIMPEZA</li></div></a>
+                            <a href="#verduras"><div class="navegacao2"><li>VERDURAS E LEGUMES</li></div></a>
+                            <a href="#frutas"><div class="navegacao2"><li>FRUTAS</li></div></a>
+                            <a href="#peixes"><div class="navegacao2"><li>PEIXES E DERIVADOS</li></div></a>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
+                
+                  
+                <div id="menuHorizontal">
+                    <ul>
+                        <a href="#"><div class="navegacao" id="home"><li>HOME</li></div></a>
+                        <a href="#carnes"><div class="navegacao"><li>CARNES / FRANGO</li></div></a>
+                        <a href="#margarinas"><div class="navegacao"><li>MARGARINAS</li></div></a>
+                        <a href="#graos"><div class="navegacao"><li>GRÃOS</li></div></a>
+                        <a href="#temperos"><div class="navegacao"><li>TEMPEROS</li></div></a>
+                        <a href="#doces"><div class="navegacao"><li>DOCES</li></div></a>
+                        <a href="#bebidas"><div class="navegacao"><li>BEBIDAS</li></div></a>
+                        <a href="#higiene"><div class="navegacao"><li>HIGIENE E LIMPEZA</li></div></a>
+                        <a href="#verduras"><div class="navegacao" id="grande"><li>VERDURAS E LEGUMES</li></div></a>
+                        <a href="#frutas"><div class="navegacao"><li>FRUTAS</li></div></a>
+                        <a href="#peixes"><div class="navegacao" id="grande"><li>PEIXES E DERIVADOS</li></div></a>
+                    </ul>
+                </div>
+                
             </div>
         </nav>
 

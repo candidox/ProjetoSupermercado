@@ -1,0 +1,142 @@
+
+@media (max-width: 768px) and (orientation:portrait){
+
+    html, body{
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+
+    #wrapper{
+        width: 100vw;
+    }
+
+    nav{
+        width: 100vw;
+    }
+
+    #menuHorizontal{
+        display: none;
+    }
+
+    #imgLogo{
+        width: 230px;
+        padding: 5px;
+        margin: 19px;
+    }
+
+    #logoPrincipalCss{
+        margin-left: 20px;
+    }
+
+    #Logo{
+        display: none;
+    }
+
+    #principal{
+        width: 100vw;
+        margin-top: 81px;
+    }
+
+    #categorias{
+        width: 250px;
+        font-size: 12pt;
+        margin-top: 2px;
+    }
+
+    .accordion .contentBx .label{
+        width: 230px;
+        margin-left: 0;
+    }
+
+    #Contato fieldset{
+        width: 300px;
+    }
+
+    #superior{
+        background: linear-gradient(rgb(132, 214, 255), rgb(255, 255, 255));
+        height: 31px;
+    }
+
+    .contentBx{
+        text-align: center;
+    }
+
+    .accordion .contentBx .content{
+        width: 225px;
+    }
+
+    #hamburguerToggle
+    {
+      display: block;
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      z-index: 1;
+      -webkit-user-select: none;
+      user-select: none;
+      display: visible;
+    }
+
+    .navegacao2{
+        background-color: rgb(0, 41, 113);
+        width: 110px;
+        height: 40px;
+        float: left;
+        margin:2px;
+        padding: 2px;
+        line-height: 15px;
+        color: white;
+        border-radius: 5px;
+    }
+
+
+    #headerCategorias{
+        width: 100vw;
+        color: rgb(0, 0, 0);
+        text-shadow: 1px 1px 3px rgb(0, 132, 255);
+        background-color: rgb(237, 247, 255);
+        height: 80px;
+        border-bottom: 1px solid black;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+
+    .navegacao{
+        background-color: rgb(0, 41, 113);
+        width: 80px;
+        height: 40px;
+        float: left;
+        margin:2px;
+        padding: 2px;
+        line-height: 35px;
+        color: white;
+    }
+
+    #menuHorizontal li{
+        color: rgb(255, 255, 255);
+        font-size: 8pt;
+        line-height: 35px;
+    }
+
+    #menuHorizontal #grande li{
+        line-height: 14px;
+        margin-top: 5px;
+    }
+
+    #home{
+        margin-left: 45px;
+    }
+
+    #imgLogo{
+        margin-left: 20px;
+    }
+
+    #Logo{
+        width: 75px;
+        margin-left: 370px;
+        margin-bottom: 20-px;
+    }
+}
