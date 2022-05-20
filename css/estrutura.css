@@ -191,13 +191,11 @@ footer ol{
     background: rgb(0, 110, 199);
     color: white;
     cursor: pointer;
-    border-radius: 6px;
+
 }
 .accordion .contentBx .label:hover{
-    background: rgb(0, 54, 98);
-    box-shadow: 3px 3px 2px #00091066;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
+    background: rgb(0, 124, 226);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.323);
     transition: 0.15s;
 }
 
@@ -215,6 +213,7 @@ footer ol{
     overflow: hidden;
     transition: 0.5s;
     overflow-y: auto;
+    border-radius: 0 0 10px 10px;
 }
 
 .accordion .contentBx.active .content{
@@ -225,6 +224,7 @@ footer ol{
 }
 
 .accordion .contentBx.active .label{
-    transition: 1s;
+    transition: 0.2s;
     background: rgb(3, 0, 67);
+    border-radius: 10px 10px 0 0;
 }
