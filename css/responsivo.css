@@ -20,7 +20,7 @@
     }
 
     #imgLogo{
-        width: 230px;
+        width: 300px;
         padding: 5px;
         margin: 19px;
     }
@@ -39,13 +39,13 @@
     }
 
     #categorias{
-        width: 250px;
-        font-size: 12pt;
+        width: 100%;
+        font-size: 18pt;
         margin-top: 2px;
     }
 
     .accordion .contentBx .label{
-        width: 230px;
+        width: 300px;
         margin-left: 0;
     }
 
@@ -66,17 +66,6 @@
         width: 225px;
     }
 
-    #hamburguerToggle
-    {
-      display: block;
-      position: absolute;
-      top: 50px;
-      left: 50px;
-      z-index: 1;
-      -webkit-user-select: none;
-      user-select: none;
-      display: visible;
-    }
 
     .navegacao2{
         background-color: rgb(0, 41, 113);
@@ -100,9 +89,10 @@
         border-bottom: 1px solid black;
     }
 
+
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) and (orientation:landscape){
 
     .navegacao{
         background-color: rgb(0, 41, 113);
@@ -138,5 +128,11 @@
         width: 75px;
         margin-left: 370px;
         margin-bottom: 20-px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (orientation:landscape){
+    #hamburguerToggle{
+        opacity: 0;
     }
 }
