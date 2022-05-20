@@ -54,6 +54,7 @@ nav{
     padding: 2px;
     line-height: 35px;
     color: white;
+    border-radius: 6px;
 }
 
 .navegacao a{
@@ -157,6 +158,7 @@ footer ol{
 #Contato input, #Contato textarea{
     background-color: rgb(194, 245, 251);
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.323);
+    border-radius: 4px;
 }
 
 #btnEnviar{
@@ -164,6 +166,7 @@ footer ol{
     width: 70px;
     padding: 5px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 *{
@@ -188,6 +191,7 @@ footer ol{
     background: rgb(0, 110, 199);
     color: white;
     cursor: pointer;
+    border-radius: 6px;
 }
 .accordion .contentBx .label:hover{
     background: rgb(0, 54, 98);
